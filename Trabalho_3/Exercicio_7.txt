@@ -1,0 +1,11 @@
+void main() {
+
+  List<double> alturas = [1.92,1.89,1.69,2.1,1.90,1.78,1.71,1.92,2.1,2.1,1.9,1.7,2.12,1.90,1.70];
+
+  double resultado = 0;
+  alturas.forEach((altura) => resultado += altura);
+
+  
+  print("A média de altura dos jogadores é:");
+         print(resultado / alturas.length);
+}

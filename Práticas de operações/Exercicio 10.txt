@@ -1,0 +1,19 @@
+void main() {
+var name = "Matheus Melo";
+print("$name deve usar o tamanho:");
+  double peso = 86;
+  
+  String verificarClassificacao() {
+    if(peso < 60) {
+      return "P";
+    } else if(peso >= 61 && peso <= 74) {
+      return "M";
+    } else if(peso >= 75 && peso <= 85) {
+      return "G";
+    } else {
+      return "GG";
+    }
+  }
+  
+  print(verificarClassificacao());
+}

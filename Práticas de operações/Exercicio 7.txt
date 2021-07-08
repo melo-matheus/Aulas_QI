@@ -1,0 +1,41 @@
+void main() {
+
+  double peso = 86;
+  double altura = 1.75;
+  var name = "Matheus Melo";
+  var idade = "21 anos";
+  
+  print('Nome: $name\n'
+        'Idade: $idade\n'
+        'Peso: $peso\n'
+        'Altura: $altura\n'
+        );
+        
+        
+  
+  double calcularIMC() {
+    return peso / (altura * altura);
+  }
+  
+  String verificarClassificacao() {
+    if(calcularIMC() >= 40) {
+      return "Obesidade - GRAU ||| (Mórbida)";
+    } else if (calcularIMC() < 40 && calcularIMC() >= 35) {
+      return "Obesidade - GRAU || (Severa)";
+    } else if (calcularIMC() < 35 && calcularIMC() >= 30) {
+      return "Obesidade - GRAU |";
+    } else if (calcularIMC() < 30 && calcularIMC() >= 25) {
+      return "Sobrepeso";
+    } else if (calcularIMC() < 25 && calcularIMC() >= 18.5) {
+      return "Saudável";
+    } else if (calcularIMC() < 18.5 && calcularIMC() >= 17) {
+      return "Magreza leve";
+    } else if (calcularIMC() < 17 && calcularIMC() >= 16) {
+      return "Magreza moderada";
+    } else {
+      return "Magreza grave";
+    }
+  }
+  
+  print(verificarClassificacao());
+}

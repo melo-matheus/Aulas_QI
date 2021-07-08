@@ -1,0 +1,26 @@
+void main() {
+ 
+var a = 2;
+var b =4;
+var c = 5;
+  
+print ("A = $a, B = $b, C = $c");
+
+print("O resultado de a + b * c é igual a ${a + b * c}.");
+print("O resultado de b / a * c é igual a ${b / a * c}.");
+
+var conta_1 = 22;
+var conta_2 = 10;
+    
+if(conta_1==conta_2){
+  print("Os numeros não são iguais.");
+  }else if(conta_1 < conta_2){
+  print("Na verdade o resultado B, é maior que o A.");
+  }else{
+  print("Na verdade o resultado A, é maior que o B.");}
+
+
+
+ 
+ 
+}

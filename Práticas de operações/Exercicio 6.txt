@@ -1,0 +1,19 @@
+void main() {  
+    
+var primeira_nota = 5;
+var segunda_nota = 10;
+var terceira_nota = 10;
+var quarta_nota = 10;
+
+var resultado = (primeira_nota + segunda_nota + terceira_nota + quarta_nota)/4;
+  
+  
+if((primeira_nota + segunda_nota + terceira_nota + quarta_nota)/4 >= 7){
+  print("Aprovado com $resultado");
+  }else if((primeira_nota + segunda_nota + terceira_nota)/3 == 5){
+  print("Exame Complementar");
+  }else{
+  print("Reprovado.");}
+
+ 
+}

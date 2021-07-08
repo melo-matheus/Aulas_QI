@@ -1,0 +1,36 @@
+void main() {
+ 
+var janeiro = 20;
+var fevereiro = 30;
+var marco = -10;
+var abril = -5;
+  
+
+  if(janeiro < 0) {
+  print("O resultado do mes é: $janeiro, ou seja, negativo. ");
+} else {
+  print("O resultado do mes é: $janeiro, ou seja, positivo");
+ }
+
+  if(fevereiro < 0) {
+  print("O resultado do mes é: $fevereiro, ou seja, negativo. ");
+} else {
+  print("O resultado do mes é: $fevereiro, ou seja, positivo");
+ }
+  
+ 
+  if(marco < 0) {
+  print("O resultado do mes é: $marco, ou seja, negativo. ");
+} else {
+  print("O resultado do mes é: $marco, ou seja, positivo");
+ }
+  
+ 
+  if(abril < 0) {
+  print("O resultado do mes é: $abril, ou seja, negativo. ");
+} else {
+  print("O resultado do mes é: $abril, ou seja, positivo");
+ }
+  
+  
+}

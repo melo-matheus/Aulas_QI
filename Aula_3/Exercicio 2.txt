@@ -1,0 +1,16 @@
+void main() {
+  var valorestudante = 11;
+  var valornormal = 22;
+  var estudantes = 2;
+  var adultos = 2;
+  
+  int valorfinalnormal = valornormal * adultos;
+  int valorfinalestudante = valorestudante * estudantes;
+  int valortotal = valorfinalnormal + valorfinalestudante;
+  int pessoas = estudantes + adultos;
+
+  print("Valor por Estudante: R\$$valorestudante,00");
+  print("Valor por Adulto: R\$$valornormal,00");
+  print("Numero de pessoas:  $pessoas, sendo 2 estudantes.");
+  print("Valor total: R\$$valortotal,00");
+}

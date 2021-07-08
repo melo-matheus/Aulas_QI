@@ -1,0 +1,12 @@
+void main() {
+ 
+
+  int contador = 0;
+
+  for(int i = 0; i <= 100; i++) {
+    print(contador);
+    contador++;
+  } 
+
+  
+}

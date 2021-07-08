@@ -1,0 +1,12 @@
+void main() {
+
+  List<double> notas = [8,9,7,5,6,1,9,7,9,10];
+  
+  print("As notas da turma foram: $notas");
+
+  double resultado = 0;
+  notas.forEach((nota) => resultado += nota);
+  print("A média da turma é:");
+  print(resultado / notas.length);
+}
+

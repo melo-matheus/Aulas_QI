@@ -1,0 +1,56 @@
+
+void main() {
+
+  var pesomatheus = 70;
+  var pesogustavo = 92;
+  var pesoandre = 93;
+  var pesomarcio = 89;
+  var pesootavio = 104;
+  var pesotanner = 69;
+  var pesoflavio = 79;
+
+  
+if(pesomatheus<90){
+  print("Matheus - Peso Pena com $pesomatheus Kg");
+  }else if(pesomatheus >= 90){
+  print("Matheus - Peso Pesado com $pesomatheus Kg");
+}
+  
+if(pesogustavo<90){
+  print("Gustavo - Peso Pena com $pesogustavo Kg");
+  }else if(pesogustavo >= 90){
+  print("Gustavo - Peso Pesado com $pesogustavo Kg");
+}
+  
+if(pesoandre<90){
+  print("Andre - Peso Pena com $pesoandre Kg");
+  }else if(pesoandre >= 90){
+  print("Andre - Peso Pesado com $pesoandre Kg");
+}
+  
+if(pesomarcio<90){
+  print("Marcio - Peso Pena com $pesomarcio Kg");
+  }else if(pesomarcio >= 90){
+  print("Marcio - Peso Pesado com $pesomarcio Kg");
+}
+  
+if(pesootavio<90){
+  print("Otavio - Peso Pena com $pesootavio Kg");
+  }else if(pesootavio >= 90){
+  print("Otavio - Peso Pesado com $pesootavio Kg");
+}
+  
+if(pesotanner<90){
+  print("Tanner - Peso Pena com $pesotanner Kg");
+  }else if(pesotanner >= 90){
+  print("Tanner - Peso Pesado com $pesotanner Kg");
+}
+  
+if(pesoflavio<90){
+  print("Flavio - Peso Pena com $pesoflavio Kg");
+  }else if(pesoflavio >= 90){
+  print("Flavio - Peso Pesado com $pesoflavio Kg");
+}
+
+
+}

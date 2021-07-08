@@ -1,0 +1,13 @@
+void main() {
+
+  double valor1 = 25;
+  double valor2 = 2;
+  double resultado = 0;
+
+  while(resultado < 1200) {
+    resultado += valor1 * valor2;
+    print(resultado);
+  }
+
+
+}

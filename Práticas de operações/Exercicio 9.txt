@@ -1,0 +1,20 @@
+void main() {
+
+var name = "Matheus Melo";
+print(name);
+  int idade = 21;
+  
+  String verificarClassificacao() {
+    if(idade >= 0 && idade <= 12) {
+      return "Criança";
+    } else if(idade >= 13 && idade <= 21) {
+      return "Jovem";
+    } else if(idade >= 22 && idade <= 59) {
+      return "Adulto";
+    } else {
+      return "Terceira idade";
+    }
+  }
+  
+  print(verificarClassificacao());
+}

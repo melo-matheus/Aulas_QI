@@ -1,0 +1,19 @@
+void main() {
+
+  double saldo = 5890,50;
+  double sacar = 6900;
+  
+  double calcularSaque() {
+    return saldo - sacar;
+  }
+  
+  String verificarSaque() {
+    if(calcularSaque() < 0) {
+      return "Saldo Indisponível";
+    } else {
+      return "Saque efetuado com sucesso, Seu saldo restante é de " +   calcularSaque().toString();
+    }
+  }
+  
+  print(verificarSaque());
+}

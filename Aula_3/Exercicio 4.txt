@@ -1,0 +1,9 @@
+void main() {
+ 
+var laterais = 4;
+
+int area = laterais * 4;
+
+print ("A lateral de um quadrado é $laterais, logo sua area é $area.");
+  
+}

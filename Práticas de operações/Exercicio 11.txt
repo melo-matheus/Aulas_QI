@@ -1,0 +1,21 @@
+void main() {
+  double salario = 3100;
+  print("Salário Antigo: $salario");
+  int MesesNaEmpresa = 28;
+ 
+  
+  void verificarClassificacao() {
+    if(MesesNaEmpresa >= 12) {
+      double novoSalario = salario * 1.4;
+      print("Novo Salário: $novoSalario");
+    } else {
+      print("Funcionário com menos de 1 ano na empresa");
+    }
+
+  }
+  
+  double aumento = ((salario*1.4 - salario)/salario)*100;
+  print("Obtive um aumento de $aumento%");
+  
+  verificarClassificacao();
+}

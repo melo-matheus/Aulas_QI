@@ -1,0 +1,11 @@
+void main() {
+ 
+var basemaior = 60;
+var basemenor = 40;
+var altura = 30;
+
+double areatotal = ((basemaior + basemenor) * altura)/2;
+
+print ("Um trapézio cuja suas medidas são: base menor é $basemenor, a base maior é $basemaior e a altura é $altura, tem como area $areatotal!");
+  
+}

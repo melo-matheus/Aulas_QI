@@ -1,0 +1,14 @@
+void main() {
+ 
+var primeira_nota = 100;
+var segunda_nota = 100;
+
+  
+if((primeira_nota + segunda_nota)/2 > 60){
+  print("Aprovado.");
+  }else if(primeira_nota + segunda_nota == 60){
+  print("Aprovado Parcialmente.");
+  }else{
+  print("Reprovado.");}
+ 
+}
